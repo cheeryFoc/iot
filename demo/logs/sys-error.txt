@@ -1,0 +1,59 @@
+10:05:53.369 [MQTT Rec: mqttId2_input] ERROR o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - [error,250] - Lost connection: Connection lost; retrying...
+10:06:06.401 [scheduling-1] ERROR o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - [error,261] - Error connecting or subscribing to [info, warn, error, record, message, 3962186225101174, 8413650329648517, 9493531652536136, 2083450322973444, 2019238903303593]
+org.eclipse.paho.client.mqttv3.MqttException: Timed out waiting for a response from the server
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:112)
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67)
+	at org.eclipse.paho.client.mqttv3.MqttClient.connect(MqttClient.java:331)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.connectAndSubscribe(MqttPahoMessageDrivenChannelAdapter.java:276)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.lambda$scheduleReconnect$2(MqttPahoMessageDrivenChannelAdapter.java:344)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:299)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+10:06:36.409 [MQTT Con: mqttId2_input] ERROR o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - [error,250] - Lost connection: Unable to connect to server; retrying...
+10:06:36.409 [scheduling-1] ERROR o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - [error,149] - Exception while connecting and subscribing
+org.eclipse.paho.client.mqttv3.MqttException: Timed out waiting for a response from the server
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:112)
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67)
+	at org.eclipse.paho.client.mqttv3.MqttClient.connect(MqttClient.java:331)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.connectAndSubscribe(MqttPahoMessageDrivenChannelAdapter.java:276)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.lambda$scheduleReconnect$2(MqttPahoMessageDrivenChannelAdapter.java:344)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:299)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+10:06:49.419 [scheduling-1] ERROR o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - [error,261] - Error connecting or subscribing to [info, warn, error, record, message, 3962186225101174, 8413650329648517, 9493531652536136, 2083450322973444, 2019238903303593]
+org.eclipse.paho.client.mqttv3.MqttException: Timed out waiting for a response from the server
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:112)
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67)
+	at org.eclipse.paho.client.mqttv3.MqttClient.connect(MqttClient.java:331)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.connectAndSubscribe(MqttPahoMessageDrivenChannelAdapter.java:276)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.lambda$scheduleReconnect$2(MqttPahoMessageDrivenChannelAdapter.java:344)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:299)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+10:07:19.427 [MQTT Con: mqttId2_input] ERROR o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - [error,250] - Lost connection: Unable to connect to server; retrying...
+10:07:19.427 [scheduling-1] ERROR o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - [error,149] - Exception while connecting and subscribing
+org.eclipse.paho.client.mqttv3.MqttException: Timed out waiting for a response from the server
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:112)
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67)
+	at org.eclipse.paho.client.mqttv3.MqttClient.connect(MqttClient.java:331)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.connectAndSubscribe(MqttPahoMessageDrivenChannelAdapter.java:276)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.lambda$scheduleReconnect$2(MqttPahoMessageDrivenChannelAdapter.java:344)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:299)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)

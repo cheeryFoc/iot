@@ -1,0 +1,198 @@
+10:54:15.426 [main] INFO  c.h.d.DemoApplicationTests - [logStarting,55] - Starting DemoApplicationTests using Java 17.0.5 on DESKTOP-GP2GGL4 with PID 11600 (started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+10:54:15.434 [main] INFO  c.h.d.DemoApplicationTests - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+10:54:15.435 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:54:17.275 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+10:54:17.349 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+10:54:17.351 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource test [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+10:54:17.351 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+10:54:17.352 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+10:54:17.352 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+10:54:17.352 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+10:54:17.352 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+10:54:17.353 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+10:54:17.353 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+10:54:17.428 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+10:54:17.693 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+10:54:17.695 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+10:54:18.188 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+10:54:20.522 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+10:54:20.710 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:54:20.781 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+10:54:20.973 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:54:21.113 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:54:22.248 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:54:23.927 [main] INFO  c.h.d.h.HeartBeatHandler - [info,49] - ?????????
+10:54:23.933 [main] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+10:54:23.938 [main] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+11:02:01.069 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:02:01.077 [main] INFO  c.h.d.DemoApplicationTests - [logStarting,55] - Starting DemoApplicationTests using Java 17.0.5 on DESKTOP-GP2GGL4 with PID 18996 (started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+11:02:01.078 [main] INFO  c.h.d.DemoApplicationTests - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+11:02:02.761 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+11:02:02.834 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+11:02:02.835 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource test [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+11:02:02.836 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+11:02:02.836 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+11:02:02.836 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+11:02:02.836 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+11:02:02.837 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+11:02:02.837 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+11:02:02.837 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+11:02:02.913 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+11:02:03.223 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+11:02:03.225 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+11:02:03.552 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-auto-1"]
+11:02:03.553 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:02:03.554 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+11:02:03.761 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:02:04.301 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+11:02:06.453 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:02:06.618 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:02:06.682 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+11:02:06.863 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:02:06.984 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:02:08.032 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:02:10.999 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-auto-1"]
+11:02:11.014 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:02:11.027 [main] INFO  c.h.d.DemoApplicationTests - [logStarted,61] - Started DemoApplicationTests in 10.203 seconds (JVM running for 11.132)
+11:02:11.031 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,32] - Config implements ApplicationRunner
+11:02:11.032 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,33] - start init data from SQL
+11:02:11.032 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,36] - ????
+11:02:11.374 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,41] - add 3962186225101174
+11:02:11.399 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,41] - add 8413650329648517
+11:02:11.424 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,41] - add 9493531652536136
+11:02:11.449 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,41] - add 2083450322973444
+11:02:11.474 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,41] - add 2019238903303593
+11:02:11.474 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,45] - ???.....
+11:02:11.567 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cd7de37d - [run,50] - complete
+11:02:16.843 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - ?????????
+11:02:16.847 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+11:02:16.852 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+11:03:33.765 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:03:33.773 [main] INFO  c.h.d.DemoApplicationTests - [logStarting,55] - Starting DemoApplicationTests using Java 17.0.5 on DESKTOP-GP2GGL4 with PID 15928 (started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+11:03:33.775 [main] INFO  c.h.d.DemoApplicationTests - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+11:03:35.577 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+11:03:35.654 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+11:03:35.655 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource test [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+11:03:35.656 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+11:03:35.656 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+11:03:35.657 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+11:03:35.657 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+11:03:35.657 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+11:03:35.657 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+11:03:35.658 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+11:03:35.735 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+11:03:36.089 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+11:03:36.092 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+11:03:36.444 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-auto-1"]
+11:03:36.445 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:03:36.445 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+11:03:36.643 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:03:37.243 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+11:03:39.430 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:03:39.582 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:03:39.640 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+11:03:39.857 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:03:39.991 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:03:40.995 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:03:43.941 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-auto-1"]
+11:03:43.954 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:03:43.964 [main] INFO  c.h.d.DemoApplicationTests - [logStarted,61] - Started DemoApplicationTests in 10.462 seconds (JVM running for 11.494)
+11:03:43.968 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,32] - Config implements ApplicationRunner
+11:03:43.968 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,33] - start init data from SQL
+11:03:43.968 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,36] - ????
+11:03:44.246 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,41] - add 3962186225101174
+11:03:44.267 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,41] - add 8413650329648517
+11:03:44.290 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,41] - add 9493531652536136
+11:03:44.312 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,41] - add 2083450322973444
+11:03:44.333 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,41] - add 2019238903303593
+11:03:44.334 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,45] - ???.....
+11:03:44.422 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$8995c9be - [run,50] - complete
+11:03:49.705 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - ?????????
+11:03:49.711 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+11:03:49.715 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+16:02:59.367 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:02:59.374 [main] INFO  c.h.d.DemoApplicationTests - [logStarting,55] - Starting DemoApplicationTests using Java 17.0.5 on DESKTOP-GP2GGL4 with PID 15592 (started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+16:02:59.376 [main] INFO  c.h.d.DemoApplicationTests - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+16:03:01.269 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+16:03:01.341 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+16:03:01.343 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource test [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+16:03:01.344 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+16:03:01.344 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:03:01.344 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:03:01.345 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+16:03:01.345 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+16:03:01.345 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+16:03:01.346 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+16:03:01.422 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+16:03:01.789 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+16:03:01.791 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+16:03:02.166 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-auto-1"]
+16:03:02.167 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:03:02.168 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:03:02.363 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:03:03.010 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:03:05.158 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+16:03:05.312 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:03:05.377 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+16:03:05.576 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:03:05.711 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+16:03:06.788 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:03:09.813 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-auto-1"]
+16:03:09.837 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:03:09.851 [main] INFO  c.h.d.DemoApplicationTests - [logStarted,61] - Started DemoApplicationTests in 10.776 seconds (JVM running for 11.885)
+16:03:09.853 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,32] - Config implements ApplicationRunner
+16:03:09.853 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,33] - start init data from SQL
+16:03:09.853 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,36] - ????
+16:03:10.188 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,41] - add 3962186225101174
+16:03:10.216 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,41] - add 8413650329648517
+16:03:10.245 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,41] - add 9493531652536136
+16:03:10.273 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,41] - add 2083450322973444
+16:03:10.303 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,41] - add 2019238903303593
+16:03:10.303 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,45] - ???.....
+16:03:10.388 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d26e94bf - [run,50] - complete
+16:03:15.639 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - ?????????
+16:03:15.646 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+16:03:15.652 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+21:07:12.772 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+21:07:12.780 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 17724 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+21:07:12.781 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+21:07:14.373 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+21:07:14.423 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+21:07:14.425 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+21:07:14.425 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+21:07:14.425 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+21:07:14.425 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+21:07:14.425 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+21:07:14.426 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+21:07:14.482 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+21:07:14.744 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+21:07:14.746 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+21:07:15.023 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+21:07:15.024 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:07:15.025 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+21:07:15.300 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:07:16.018 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+21:07:18.130 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+21:07:18.276 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+21:07:18.336 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+21:07:18.485 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+21:07:18.613 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+21:07:19.635 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21:07:22.677 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+21:07:22.688 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:07:22.700 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 10.302 seconds (JVM running for 11.884)
+21:07:22.702 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,32] - Config implements ApplicationRunner
+21:07:22.702 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,33] - start init data from SQL
+21:07:22.702 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,36] - 处理订阅
+21:07:23.004 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 3962186225101174
+21:07:23.030 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 8413650329648517
+21:07:23.056 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 9493531652536136
+21:07:23.086 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 2083450322973444
+21:07:23.111 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 2019238903303593
+21:07:23.111 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,45] - 处理中.....
+21:07:23.198 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,50] - complete
+21:08:03.942 [http-nio-8080-exec-1] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+21:11:31.727 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+21:11:36.776 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+21:11:36.781 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+21:11:36.787 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed

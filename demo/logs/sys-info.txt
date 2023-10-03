@@ -1,0 +1,47 @@
+14:29:04.652 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+14:29:04.665 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 4396 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+14:29:04.666 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+14:29:06.256 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+14:29:06.299 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+14:29:06.301 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+14:29:06.301 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+14:29:06.301 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+14:29:06.301 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+14:29:06.301 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+14:29:06.301 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+14:29:06.346 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+14:29:06.550 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+14:29:06.553 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+14:29:06.733 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:29:06.733 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:29:06.734 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+14:29:06.917 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:29:07.478 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+14:29:18.561 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+14:29:18.757 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:29:18.846 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+14:29:18.987 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:29:19.100 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:29:21.088 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:29:23.709 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:29:23.726 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:29:23.741 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 19.448 seconds (JVM running for 20.588)
+14:29:23.743 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,32] - Config implements ApplicationRunner
+14:29:23.743 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,33] - start init data from SQL
+14:29:23.743 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,36] - 处理订阅
+14:29:24.512 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,41] - add 3962186225101174
+14:29:24.613 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,41] - add 8413650329648517
+14:29:24.713 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,41] - add 9493531652536136
+14:29:24.813 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,41] - add 2083450322973444
+14:29:24.915 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,41] - add 2019238903303593
+14:29:25.016 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,41] - add 1055674020081435
+14:29:25.017 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,45] - 处理中.....
+14:29:25.217 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$cde6bb45 - [run,50] - complete
+14:29:30.888 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+14:29:42.545 [http-nio-8080-exec-7] INFO  c.h.d.m.u.s.AuthService - [authLogin,59] - 密码正确
+14:29:42.862 [http-nio-8080-exec-7] INFO  c.h.d.a.s.AuthResource - [login,41] - 用户: root 登录成功
+14:29:51.961 [http-nio-8080-exec-2] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+14:30:10.121 [http-nio-8080-exec-7] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+14:30:21.594 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+14:30:21.598 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+14:30:21.603 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed

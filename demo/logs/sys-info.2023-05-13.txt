@@ -1,0 +1,1155 @@
+16:19:49.102 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:19:49.117 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 9816 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+16:19:49.118 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+16:19:51.137 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+16:19:51.193 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+16:19:51.195 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:19:51.195 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:19:51.195 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+16:19:51.195 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+16:19:51.195 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+16:19:51.195 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+16:19:51.250 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+16:19:51.579 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+16:19:51.582 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+16:19:51.765 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:19:51.765 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:19:51.765 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:19:51.989 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:19:52.580 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:19:54.325 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+16:19:54.456 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:19:54.499 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+16:19:54.625 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:19:54.723 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+16:19:55.598 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:19:58.458 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:19:58.469 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:19:58.484 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 10.006 seconds (JVM running for 12.192)
+16:19:58.487 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,32] - Config implements ApplicationRunner
+16:19:58.487 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,33] - start init data from SQL
+16:19:58.487 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,36] - 处理订阅
+16:19:58.792 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,41] - add 3962186225101174
+16:19:58.813 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,41] - add 8413650329648517
+16:19:58.837 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,41] - add 9493531652536136
+16:19:58.860 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,41] - add 2083450322973444
+16:19:58.880 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,41] - add 2019238903303593
+16:19:58.881 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,45] - 处理中.....
+16:19:58.980 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$ef9b1c11 - [run,50] - complete
+16:23:04.741 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+16:23:04.741 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - CENSYS
+16:24:45.472 [http-nio-8080-exec-3] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+16:24:45.472 [http-nio-8080-exec-3] INFO  c.h.d.m.s.s.EmqxService - [status,60] - CENSYS
+16:28:31.526 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+16:28:31.526 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - CENSYS
+16:28:38.921 [http-nio-8080-exec-5] INFO  c.h.d.m.u.s.AuthService - [authLogin,59] - 密码正确
+16:28:39.032 [http-nio-8080-exec-6] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+16:40:55.206 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+16:41:00.250 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+16:41:00.254 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+16:41:00.258 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+16:41:07.161 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:41:07.164 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 2844 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+16:41:07.165 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+16:41:08.505 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+16:41:08.548 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+16:41:08.549 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:41:08.549 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:41:08.550 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+16:41:08.550 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+16:41:08.550 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+16:41:08.550 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+16:41:08.592 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+16:41:08.799 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+16:41:08.800 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+16:41:08.909 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:41:08.910 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:41:08.910 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:41:09.061 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:41:09.542 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:41:11.051 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+16:41:11.166 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:41:11.199 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+16:41:11.299 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:41:11.376 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+16:41:12.128 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:41:14.467 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:41:14.475 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:41:14.498 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 7.648 seconds (JVM running for 8.833)
+16:41:14.502 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,32] - Config implements ApplicationRunner
+16:41:14.502 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,33] - start init data from SQL
+16:41:14.503 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,36] - 处理订阅
+16:41:14.748 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,41] - add 3962186225101174
+16:41:14.767 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,41] - add 8413650329648517
+16:41:14.786 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,41] - add 9493531652536136
+16:41:14.804 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,41] - add 2083450322973444
+16:41:14.822 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,41] - add 2019238903303593
+16:41:14.823 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,45] - 处理中.....
+16:41:14.886 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$2b7b8a6a - [run,50] - complete
+16:44:04.938 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+16:44:04.943 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+16:44:04.948 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+16:44:10.915 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:44:10.919 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 18588 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+16:44:10.920 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+16:44:12.328 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+16:44:12.376 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+16:44:12.377 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:44:12.377 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:44:12.378 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+16:44:12.378 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+16:44:12.378 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+16:44:12.378 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+16:44:12.427 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+16:44:12.658 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+16:44:12.660 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+16:44:12.768 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:44:12.768 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:44:12.768 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:44:12.935 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:44:13.463 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:44:15.134 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+16:44:15.249 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:44:15.301 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+16:44:15.405 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:44:15.484 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+16:44:16.284 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:44:18.680 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:44:18.687 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:44:18.697 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 8.116 seconds (JVM running for 9.498)
+16:44:18.699 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,32] - Config implements ApplicationRunner
+16:44:18.699 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,33] - start init data from SQL
+16:44:18.699 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,36] - 处理订阅
+16:44:18.934 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 3962186225101174
+16:44:18.953 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 8413650329648517
+16:44:18.970 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 9493531652536136
+16:44:18.988 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 2083450322973444
+16:44:19.005 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 2019238903303593
+16:44:19.006 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,45] - 处理中.....
+16:44:19.070 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,50] - complete
+16:44:49.742 [http-nio-8080-exec-7] INFO  c.h.d.a.s.LogResource - [download,57] - 用户( root )  开始下载日志 sys-info.2023-04-21.txt
+16:44:49.745 [http-nio-8080-exec-7] INFO  c.h.d.a.s.LogResource - [download,59] - 用户( root )  已经下载日志 sys-info.2023-04-21.txt
+16:46:55.495 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+16:46:55.499 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+16:46:55.502 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+16:47:01.701 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:47:01.705 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 7984 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+16:47:01.706 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+16:47:03.105 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+16:47:03.155 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+16:47:03.156 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:47:03.156 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:47:03.157 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+16:47:03.157 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+16:47:03.157 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+16:47:03.157 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+16:47:03.203 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+16:47:03.424 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+16:47:03.425 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+16:47:03.536 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:47:03.536 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:47:03.536 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:47:03.693 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:47:04.205 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:47:05.842 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+16:47:05.969 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:47:06.005 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+16:47:06.111 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:47:06.194 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+16:47:06.973 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:47:09.410 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:47:09.419 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:47:09.431 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 8.078 seconds (JVM running for 9.357)
+16:47:09.433 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,32] - Config implements ApplicationRunner
+16:47:09.433 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,33] - start init data from SQL
+16:47:09.433 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,36] - 处理订阅
+16:47:09.682 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 3962186225101174
+16:47:09.701 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 8413650329648517
+16:47:09.720 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 9493531652536136
+16:47:09.739 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 2083450322973444
+16:47:09.758 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,41] - add 2019238903303593
+16:47:09.758 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,45] - 处理中.....
+16:47:09.827 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$d7548772 - [run,50] - complete
+16:47:25.071 [http-nio-8080-exec-2] INFO  c.h.d.a.s.LogResource - [download,60] - 用户( root )  开始下载日志 sys-info.2023-04-21.txt
+16:47:25.073 [http-nio-8080-exec-2] INFO  c.h.d.a.s.LogResource - [download,83] - 用户( root )  已经下载日志 sys-info.2023-04-21.txt
+16:47:30.046 [http-nio-8080-exec-4] INFO  c.h.d.a.s.LogResource - [download,60] - 用户( root )  开始下载日志 sys-info.2023-04-19.txt
+16:47:30.049 [http-nio-8080-exec-4] INFO  c.h.d.a.s.LogResource - [download,83] - 用户( root )  已经下载日志 sys-info.2023-04-19.txt
+16:50:29.860 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+16:50:29.864 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+16:50:29.869 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+16:50:36.044 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:50:36.048 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 8764 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+16:50:36.049 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+16:50:37.378 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+16:50:37.422 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+16:50:37.424 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:50:37.424 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+16:50:37.424 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+16:50:37.424 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+16:50:37.424 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+16:50:37.424 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+16:50:37.465 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+16:50:37.678 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+16:50:37.680 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+16:50:37.784 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:50:37.784 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:50:37.784 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:50:37.941 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:50:38.403 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:50:39.915 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+16:50:40.017 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:50:40.065 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+16:50:40.167 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:50:40.242 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+16:50:41.020 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:50:43.478 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:50:43.487 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:50:43.498 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 7.771 seconds (JVM running for 9.053)
+16:50:43.500 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,32] - Config implements ApplicationRunner
+16:50:43.500 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,33] - start init data from SQL
+16:50:43.500 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,36] - 处理订阅
+16:50:43.769 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 3962186225101174
+16:50:43.788 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 8413650329648517
+16:50:43.808 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 9493531652536136
+16:50:43.828 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 2083450322973444
+16:50:43.848 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 2019238903303593
+16:50:43.848 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,45] - 处理中.....
+16:50:43.914 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,50] - complete
+16:51:01.381 [http-nio-8080-exec-2] INFO  c.h.d.a.s.LogResource - [download,60] - 用户( root )  开始下载日志 sys-info.2023-04-19.txt
+16:51:01.385 [http-nio-8080-exec-2] INFO  c.h.d.a.s.LogResource - [download,83] - 用户( root )  已经下载日志 sys-info.2023-04-19.txt
+16:51:17.546 [http-nio-8080-exec-7] INFO  c.h.d.a.s.LogResource - [download,60] - 用户( root )  开始下载日志 sys-info.2023-04-16.txt
+16:51:17.550 [http-nio-8080-exec-7] INFO  c.h.d.a.s.LogResource - [download,83] - 用户( root )  已经下载日志 sys-info.2023-04-16.txt
+17:04:40.082 [http-nio-8080-exec-8] INFO  c.h.d.a.s.LogResource - [deleteFile,51] - 用户( root )  正在删除日志 sys-info.2023-04-12.txt
+17:04:40.098 [http-nio-8080-exec-8] INFO  c.h.d.a.s.LogResource - [deleteFile,53] - 用户( root )  已经删除日志 sys-info.2023-04-12.txt
+17:04:44.489 [http-nio-8080-exec-10] INFO  c.h.d.a.s.LogResource - [deleteFile,51] - 用户( root )  正在删除日志 sys-info.2023-04-13.txt
+17:04:44.494 [http-nio-8080-exec-10] INFO  c.h.d.a.s.LogResource - [deleteFile,53] - 用户( root )  已经删除日志 sys-info.2023-04-13.txt
+17:27:14.114 [http-nio-8080-exec-2] INFO  c.h.d.a.s.LogResource - [download,60] - 用户( root )  开始下载日志 sys-info.2023-04-22.txt
+17:27:14.118 [http-nio-8080-exec-2] INFO  c.h.d.a.s.LogResource - [download,83] - 用户( root )  已经下载日志 sys-info.2023-04-22.txt
+18:07:03.848 [http-nio-8080-exec-9] INFO  c.h.d.a.s.LogResource - [download,60] - 用户( root )  开始下载日志 sys-info.2023-04-22.txt
+18:07:03.851 [http-nio-8080-exec-9] INFO  c.h.d.a.s.LogResource - [download,83] - 用户( root )  已经下载日志 sys-info.2023-04-22.txt
+18:09:33.211 [http-nio-8080-exec-3] INFO  c.h.d.a.s.LogResource - [download,60] - 用户( root )  开始下载日志 sys-info.2023-04-24.txt
+18:09:33.214 [http-nio-8080-exec-3] INFO  c.h.d.a.s.LogResource - [download,83] - 用户( root )  已经下载日志 sys-info.2023-04-24.txt
+18:13:49.353 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+18:13:49.359 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+18:13:49.365 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+18:13:52.943 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+18:13:52.949 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 6568 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+18:13:52.949 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+18:13:54.436 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+18:13:54.485 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+18:13:54.486 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+18:13:54.486 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+18:13:54.487 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+18:13:54.487 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+18:13:54.487 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+18:13:54.487 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+18:13:54.532 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+18:13:54.716 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+18:13:54.719 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+18:13:54.884 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:13:54.885 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:13:54.885 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+18:13:55.063 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:13:55.664 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+18:13:57.420 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:13:57.568 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:13:57.611 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+18:13:57.747 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:13:57.831 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+18:13:58.735 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:14:01.505 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:14:01.513 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:14:01.525 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 8.907 seconds (JVM running for 10.189)
+18:14:01.527 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,32] - Config implements ApplicationRunner
+18:14:01.527 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,33] - start init data from SQL
+18:14:01.527 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,36] - 处理订阅
+18:14:01.818 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,41] - add 3962186225101174
+18:14:01.841 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,41] - add 8413650329648517
+18:14:01.864 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,41] - add 9493531652536136
+18:14:01.885 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,41] - add 2083450322973444
+18:14:01.908 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,41] - add 2019238903303593
+18:14:01.909 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,45] - 处理中.....
+18:14:01.985 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$9090b9d3 - [run,50] - complete
+18:17:41.790 [http-nio-8080-exec-4] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:18:06.365 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:18:18.922 [http-nio-8080-exec-1] INFO  c.h.d.m.u.s.AuthService - [authLogin,59] - 密码正确
+18:18:19.079 [http-nio-8080-exec-5] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=2
+18:18:45.901 [http-nio-8080-exec-1] INFO  c.h.d.a.s.LogResource - [download,60] - 用户( xixixi )  开始下载日志 sys-info.txt
+18:18:45.906 [http-nio-8080-exec-1] INFO  c.h.d.a.s.LogResource - [download,83] - 用户( xixixi )  已经下载日志 sys-info.txt
+18:18:55.165 [http-nio-8080-exec-2] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=2
+18:18:55.239 [http-nio-8080-exec-3] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:19:05.848 [http-nio-8080-exec-10] INFO  c.h.d.m.d.s.DeviceService - [edit,182] - InfoDTO{id=25, deviceName='2019238903303593', alias='测试设备1', groupName='test'}
+18:19:06.075 [http-nio-8080-exec-5] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:19:52.277 [http-nio-8080-exec-9] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+18:19:52.371 [http-nio-8080-exec-5] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:21:17.631 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 2
+18:21:17.632 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+18:21:17.633 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 2
+18:21:22.678 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+18:21:22.683 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+18:21:22.687 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+18:21:31.932 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+18:21:31.937 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 1276 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+18:21:31.938 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+18:21:33.393 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+18:21:33.442 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+18:21:33.443 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+18:21:33.443 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+18:21:33.444 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+18:21:33.444 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+18:21:33.444 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+18:21:33.444 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+18:21:33.491 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+18:21:33.671 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+18:21:33.675 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+18:21:33.835 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:21:33.835 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:21:33.835 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+18:21:34.002 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:21:34.604 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+18:21:36.248 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:21:36.379 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:21:36.417 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+18:21:36.523 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:21:36.619 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+18:21:37.449 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:21:40.017 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:21:40.026 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:21:40.038 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 8.441 seconds (JVM running for 9.895)
+18:21:40.040 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,32] - Config implements ApplicationRunner
+18:21:40.040 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,33] - start init data from SQL
+18:21:40.040 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,36] - 处理订阅
+18:21:40.119 [http-nio-8080-exec-1] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=2
+18:21:40.280 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 3962186225101174
+18:21:40.336 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 8413650329648517
+18:21:40.358 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 9493531652536136
+18:21:40.379 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 2083450322973444
+18:21:40.400 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 2019238903303593
+18:21:40.401 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,45] - 处理中.....
+18:21:40.469 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,50] - complete
+18:21:54.551 [http-nio-8080-exec-3] INFO  c.h.d.m.d.s.DeviceService - [getModel,130] - undefined
+18:23:00.741 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 2
+18:23:05.787 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+18:23:05.791 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+18:23:05.796 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+18:23:12.950 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+18:23:12.955 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 3704 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+18:23:12.957 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+18:23:14.437 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+18:23:14.484 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+18:23:14.485 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+18:23:14.485 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+18:23:14.485 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+18:23:14.485 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+18:23:14.485 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+18:23:14.486 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+18:23:14.534 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+18:23:14.733 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+18:23:14.735 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+18:23:14.893 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:23:14.893 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:23:14.893 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+18:23:15.073 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:23:15.586 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+18:23:17.196 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:23:17.318 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:23:17.353 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+18:23:17.456 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:23:17.534 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+18:23:18.377 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:23:21.051 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:23:21.059 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:23:21.071 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 8.47 seconds (JVM running for 9.888)
+18:23:21.073 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,32] - Config implements ApplicationRunner
+18:23:21.073 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,33] - start init data from SQL
+18:23:21.073 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,36] - 处理订阅
+18:23:21.304 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 3962186225101174
+18:23:21.325 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 8413650329648517
+18:23:21.346 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 9493531652536136
+18:23:21.381 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 2083450322973444
+18:23:21.401 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,41] - add 2019238903303593
+18:23:21.401 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,45] - 处理中.....
+18:23:21.465 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$232c4959 - [run,50] - complete
+18:24:31.512 [http-nio-8080-exec-5] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:24:31.512 [http-nio-8080-exec-9] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:24:58.371 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+18:24:58.375 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+18:24:58.380 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+18:25:04.611 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+18:25:04.618 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 7448 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+18:25:04.619 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+18:25:06.016 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+18:25:06.063 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+18:25:06.064 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+18:25:06.064 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+18:25:06.065 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+18:25:06.065 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+18:25:06.065 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+18:25:06.065 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+18:25:06.111 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+18:25:06.305 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+18:25:06.307 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+18:25:06.463 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:25:06.464 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:25:06.464 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+18:25:06.624 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:25:07.141 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+18:25:08.693 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:25:08.804 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:25:08.842 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+18:25:08.957 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:25:09.044 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+18:25:09.816 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:25:12.238 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:25:12.247 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:25:12.257 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 7.955 seconds (JVM running for 9.333)
+18:25:12.259 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,32] - Config implements ApplicationRunner
+18:25:12.259 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,33] - start init data from SQL
+18:25:12.259 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,36] - 处理订阅
+18:25:12.488 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,41] - add 3962186225101174
+18:25:12.507 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,41] - add 8413650329648517
+18:25:12.526 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,41] - add 9493531652536136
+18:25:12.544 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,41] - add 2083450322973444
+18:25:12.562 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,41] - add 2019238903303593
+18:25:12.562 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,45] - 处理中.....
+18:25:12.631 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$99ffd02f - [run,50] - complete
+18:25:29.772 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:25:29.772 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:25:35.877 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":28}', topic='server/2083450322973444'}
+18:25:36.917 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":16}', topic='server/2083450322973444'}
+18:25:40.086 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:25:49.738 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:25:49.749 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:25:53.212 [http-nio-8080-exec-9] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+18:25:53.399 [http-nio-8080-exec-7] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:25:53.400 [http-nio-8080-exec-7] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+18:25:55.331 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:25:55.331 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:25:56.281 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:26:00.119 [http-nio-8080-exec-8] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+18:26:00.557 [http-nio-8080-exec-4] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+18:26:00.708 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:26:00.709 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+18:26:03.367 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:26:03.374 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:27:09.387 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:27:09.388 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+18:27:24.838 [http-nio-8080-exec-1] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=2
+18:27:24.913 [http-nio-8080-exec-10] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:27:24.915 [http-nio-8080-exec-10] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+18:27:35.785 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:27:35.785 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+18:27:48.377 [http-nio-8080-exec-8] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 2
+18:27:54.299 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:27:54.327 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:29:52.466 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:29:52.467 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+18:29:59.503 [http-nio-8080-exec-7] INFO  c.h.d.m.u.s.AuthService - [authLogin,59] - 密码正确
+18:29:59.541 [http-nio-8080-exec-8] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+18:32:30.143 [http-nio-8080-exec-10] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+18:32:30.239 [http-nio-8080-exec-9] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:32:30.240 [http-nio-8080-exec-9] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+18:33:20.619 [http-nio-8080-exec-2] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+18:33:20.704 [http-nio-8080-exec-9] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+18:33:20.704 [http-nio-8080-exec-9] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+18:34:29.583 [lettuce-eventExecutorLoop-1-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.139.8.56:6379
+18:34:29.627 [lettuce-nioEventLoop-4-2] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.139.8.56:6379
+18:35:40.880 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":21}', topic='server/2083450322973444'}
+18:35:41.510 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":20}', topic='server/2083450322973444'}
+18:35:42.068 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":19}', topic='server/2083450322973444'}
+18:35:42.117 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":18}', topic='server/2083450322973444'}
+18:35:42.148 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":17}', topic='server/2083450322973444'}
+18:35:42.166 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":16}', topic='server/2083450322973444'}
+18:35:45.384 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:35:45.389 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:38:43.893 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:38:43.898 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:38:50.122 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:38:50.502 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:39:27.400 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:39:27.781 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:39:27.986 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:39:29.351 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:40:43.442 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:40:43.443 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:41:07.689 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:41:07.689 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:42:10.938 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:42:11.516 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:42:11.899 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:42:12.267 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":17}', topic='server/2083450322973444'}
+18:42:18.262 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":17}', topic='server/2083450322973444'}
+18:42:20.531 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:43:06.592 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/8413650329648517'}
+18:43:07.469 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/8413650329648517'}
+18:43:10.739 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:43:10.743 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:43:29.145 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:43:29.149 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:43:35.074 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:43:35.665 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:43:36.460 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:43:36.919 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:43:37.675 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:43:38.278 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:43:38.795 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:43:39.128 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:00.471 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:02.813 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:03.180 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:04.351 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:04.742 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":29}', topic='server/2083450322973444'}
+18:44:05.180 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:05.212 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:05.228 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:44:05.246 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:05.263 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:05.296 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:05.331 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:05.364 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:05.412 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:05.428 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:05.462 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:06.065 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:06.079 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:06.095 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:06.113 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:06.130 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:06.165 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:06.198 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:06.230 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:44:06.246 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:06.315 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:06.397 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":29}', topic='server/2083450322973444'}
+18:44:06.731 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:06.763 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:06.796 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:44:06.830 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:06.880 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:06.930 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:06.963 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:06.980 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:06.997 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:07.031 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:07.113 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:07.263 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":17}', topic='server/2083450322973444'}
+18:44:07.597 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":16}', topic='server/2083450322973444'}
+18:44:07.899 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":17}', topic='server/2083450322973444'}
+18:44:07.966 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:07.980 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:08.015 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:08.030 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:08.047 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:08.064 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:08.080 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:08.113 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:08.147 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:44:08.165 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:08.232 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:08.297 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":29}', topic='server/2083450322973444'}
+18:44:08.381 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":30}', topic='server/2083450322973444'}
+18:44:08.682 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":29}', topic='server/2083450322973444'}
+18:44:08.699 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:08.717 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:08.732 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:44:08.764 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:08.781 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:08.797 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:08.831 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:08.866 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:08.897 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:08.948 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:08.981 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":17}', topic='server/2083450322973444'}
+18:44:09.031 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":16}', topic='server/2083450322973444'}
+18:44:09.250 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":17}', topic='server/2083450322973444'}
+18:44:09.265 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:09.299 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:09.314 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:09.332 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:09.366 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:09.386 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:09.417 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:09.449 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:44:09.483 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:09.517 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:09.583 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":29}', topic='server/2083450322973444'}
+18:44:09.833 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:09.866 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:09.898 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:09.915 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:09.948 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:09.982 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:09.999 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:10.015 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:10.066 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:10.115 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:10.182 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":17}', topic='server/2083450322973444'}
+18:44:10.319 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:10.332 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:10.350 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:10.367 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:10.382 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:10.400 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:10.448 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:10.451 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:44:10.461 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:10.486 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:10.518 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":29}', topic='server/2083450322973444'}
+18:44:10.600 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":30}', topic='server/2083450322973444'}
+18:44:10.782 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":29}', topic='server/2083450322973444'}
+18:44:10.819 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:10.833 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:10.850 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:44:10.882 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:10.900 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:10.915 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:10.950 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:10.982 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:10.999 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:11.068 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:11.251 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:11.284 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:11.301 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:11.316 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:11.335 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:11.350 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:44:11.368 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:11.384 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:11.418 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":29}', topic='server/2083450322973444'}
+18:44:11.486 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:11.516 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:11.532 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:11.550 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:11.567 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:11.602 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:11.633 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:11.735 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:11.769 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:44:11.784 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:44:11.800 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:11.817 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:11.833 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:11.851 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":29}', topic='server/2083450322973444'}
+18:44:11.917 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:11.933 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:11.950 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:44:11.969 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:11.984 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:12.001 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:12.033 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:12.049 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:44:12.152 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:12.184 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:44:12.200 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:12.216 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:12.233 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:44:12.250 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:44:12.267 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":30}', topic='server/2083450322973444'}
+18:44:12.988 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:44:13.421 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:44:13.690 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:44:14.104 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":17}', topic='server/2083450322973444'}
+18:44:14.358 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":16}', topic='server/2083450322973444'}
+18:44:14.737 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":17}', topic='server/2083450322973444'}
+18:44:15.401 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":30}', topic='server/2083450322973444'}
+18:45:53.048 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":23}', topic='server/8413650329648517'}
+18:45:54.142 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":21}', topic='server/8413650329648517'}
+18:45:54.454 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":18}', topic='server/8413650329648517'}
+18:45:54.905 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":23}', topic='server/8413650329648517'}
+18:45:58.312 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:45:58.319 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:46:08.315 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"213","control":"","value":0}', topic='server/2019238903303593'}
+18:46:16.867 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:46:16.872 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:46:41.166 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:47:06.862 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:47:07.365 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:47:07.731 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:47:08.238 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:47:09.132 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:48:01.715 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:48:01.715 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:48:11.339 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:48:11.339 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:49:13.885 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:49:13.890 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:50:06.733 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:50:06.735 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:50:07.891 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:50:19.640 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:50:19.640 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:51:49.549 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:51:49.552 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:52:35.586 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:52:35.586 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:53:01.824 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":21}', topic='server/8413650329648517'}
+18:53:02.275 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":22}', topic='server/8413650329648517'}
+18:53:02.659 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":25}', topic='server/8413650329648517'}
+18:53:32.319 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:53:32.323 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:53:39.727 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:53:40.631 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:54:31.319 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:54:31.329 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:54:35.119 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:54:35.563 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:54:36.031 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:54:36.577 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:54:37.205 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:54:37.383 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:54:37.560 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:54:37.717 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:54:37.867 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:54:38.049 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"on"}', topic='server/2083450322973444'}
+18:54:38.509 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"led","control":"off"}', topic='server/2083450322973444'}
+18:54:39.389 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":28}', topic='server/2083450322973444'}
+18:54:39.824 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:54:40.020 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":28}', topic='server/2083450322973444'}
+18:54:40.201 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:54:40.759 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:54:41.271 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:54:41.698 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:54:42.274 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:54:43.102 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"off","value":28}', topic='server/2083450322973444'}
+18:54:43.561 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":28}', topic='server/2083450322973444'}
+18:54:44.690 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+18:54:44.773 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:54:44.856 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:54:44.940 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:54:44.976 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:54:45.022 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:54:45.056 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:54:45.089 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:54:45.139 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:54:45.189 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:54:45.238 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":17}', topic='server/2083450322973444'}
+18:54:45.738 [http-nio-8080-exec-5] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":18}', topic='server/2083450322973444'}
+18:54:45.806 [http-nio-8080-exec-2] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":19}', topic='server/2083450322973444'}
+18:54:45.841 [http-nio-8080-exec-3] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":20}', topic='server/2083450322973444'}
+18:54:45.855 [http-nio-8080-exec-10] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":21}', topic='server/2083450322973444'}
+18:54:45.890 [http-nio-8080-exec-4] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":22}', topic='server/2083450322973444'}
+18:54:45.906 [http-nio-8080-exec-9] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":23}', topic='server/2083450322973444'}
+18:54:45.939 [http-nio-8080-exec-6] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":24}', topic='server/2083450322973444'}
+18:54:45.973 [http-nio-8080-exec-7] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":25}', topic='server/2083450322973444'}
+18:54:46.023 [http-nio-8080-exec-8] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":26}', topic='server/2083450322973444'}
+18:54:46.157 [http-nio-8080-exec-1] INFO  c.h.d.a.s.MqttResource - [sendMsg,39] - send: MqttDateDto{data='{"event":"control","attribute":"air","control":"on","value":27}', topic='server/2083450322973444'}
+20:20:11.881 [http-nio-8080-exec-9] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+20:20:11.882 [http-nio-8080-exec-9] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+20:20:20.834 [http-nio-8080-exec-5] INFO  c.h.d.m.d.s.DeviceService - [edit,182] - InfoDTO{id=25, deviceName='2019238903303593', alias='测试设备3', groupName='test'}
+20:20:21.019 [http-nio-8080-exec-3] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+20:20:21.020 [http-nio-8080-exec-3] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+20:20:57.960 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+20:20:57.960 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+20:21:08.410 [http-nio-8080-exec-5] INFO  c.h.d.m.d.s.DeviceService - [edit,182] - InfoDTO{id=25, deviceName='2019238903303593', alias='测试设备1233', groupName='test'}
+20:21:08.576 [http-nio-8080-exec-3] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+20:21:08.577 [http-nio-8080-exec-3] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+20:23:26.885 [http-nio-8080-exec-10] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+20:23:26.886 [http-nio-8080-exec-10] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+20:23:38.737 [http-nio-8080-exec-4] INFO  c.h.d.m.d.s.DeviceService - [edit,182] - InfoDTO{id=25, deviceName='2019238903303593', alias='测试设备1', groupName='test'}
+20:23:38.907 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+20:23:38.907 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+20:23:42.784 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.139.8.56:6379
+20:23:42.822 [lettuce-nioEventLoop-4-3] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.139.8.56:6379
+20:24:08.266 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+20:24:08.266 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+20:28:03.186 [http-nio-8080-exec-6] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+20:28:03.186 [http-nio-8080-exec-5] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+20:28:03.186 [http-nio-8080-exec-3] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+20:28:03.187 [http-nio-8080-exec-2] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+20:28:03.675 [http-nio-8080-exec-9] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+20:28:03.837 [http-nio-8080-exec-8] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+20:28:03.837 [http-nio-8080-exec-8] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+20:30:17.641 [http-nio-8080-exec-5] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+20:30:19.951 [http-nio-8080-exec-9] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+20:30:19.952 [http-nio-8080-exec-9] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2
+20:30:27.188 [http-nio-8080-exec-8] INFO  c.h.d.m.u.s.AuthService - [authLogin,59] - 密码正确
+20:30:27.212 [http-nio-8080-exec-10] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+21:41:50.019 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+21:41:55.094 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+21:41:55.104 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+21:41:55.130 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+21:42:02.759 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+21:42:02.765 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 8484 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+21:42:02.766 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+21:42:04.502 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+21:42:04.566 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+21:42:04.568 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+21:42:04.568 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+21:42:04.568 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+21:42:04.569 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+21:42:04.569 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+21:42:04.569 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+21:42:04.623 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+21:42:04.851 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+21:42:04.853 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+21:42:05.075 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+21:42:05.075 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:42:05.076 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+21:42:05.253 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:42:05.812 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+21:42:07.485 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+21:42:07.622 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+21:42:07.679 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+21:42:07.817 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+21:42:07.922 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+21:42:08.789 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21:42:11.549 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+21:42:11.575 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:42:11.614 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 9.269 seconds (JVM running for 10.789)
+21:42:11.625 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,32] - Config implements ApplicationRunner
+21:42:11.626 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,33] - start init data from SQL
+21:42:11.626 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,36] - 处理订阅
+21:42:11.994 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,41] - add 3962186225101174
+21:42:12.012 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,41] - add 8413650329648517
+21:42:12.029 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,41] - add 9493531652536136
+21:42:12.045 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,41] - add 2083450322973444
+21:42:12.062 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,41] - add 2019238903303593
+21:42:12.063 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,45] - 处理中.....
+21:42:12.141 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$b9c1f9f6 - [run,50] - complete
+21:42:22.886 [http-nio-8080-exec-1] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+21:42:23.116 [http-nio-8080-exec-4] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+21:43:47.847 [http-nio-8080-exec-8] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+21:43:48.230 [http-nio-8080-exec-9] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+21:43:48.386 [http-nio-8080-exec-2] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+21:48:13.544 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+21:48:18.581 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+21:48:18.585 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+21:48:18.590 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+22:54:38.722 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+22:54:38.732 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 18948 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+22:54:38.733 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+22:54:40.641 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+22:54:40.697 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+22:54:40.699 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+22:54:40.699 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+22:54:40.699 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+22:54:40.700 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+22:54:40.700 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+22:54:40.700 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+22:54:40.758 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+22:54:40.994 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+22:54:40.996 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+22:54:41.217 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:54:41.217 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:54:41.218 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+22:54:41.432 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:54:41.997 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+22:54:43.716 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+22:54:43.839 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+22:54:43.884 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+22:54:44.019 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22:54:44.116 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+22:54:44.956 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22:54:48.472 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:54:48.483 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:54:48.493 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 10.197 seconds (JVM running for 11.63)
+22:54:48.494 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,32] - Config implements ApplicationRunner
+22:54:48.495 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,33] - start init data from SQL
+22:54:48.495 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,36] - 处理订阅
+22:54:48.723 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,41] - add 3962186225101174
+22:54:48.742 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,41] - add 8413650329648517
+22:54:48.762 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,41] - add 9493531652536136
+22:54:48.780 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,41] - add 2083450322973444
+22:54:48.799 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,41] - add 2019238903303593
+22:54:48.799 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,45] - 处理中.....
+22:54:48.868 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$e2119cc4 - [run,50] - complete
+22:54:49.037 [http-nio-8080-exec-4] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+22:55:02.996 [http-nio-8080-exec-10] INFO  c.h.d.m.u.s.AuthService - [authLogin,59] - 密码正确
+22:55:03.105 [http-nio-8080-exec-2] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+22:55:26.630 [http-nio-8080-exec-3] INFO  c.h.d.a.s.EventResource - [deleteById,62] - 用户( root )  正在删除warn事件完成 
+22:55:26.832 [http-nio-8080-exec-3] INFO  c.h.d.a.s.EventResource - [deleteById,64] - 用户( root )  已经删除warn事件完成 
+22:56:05.048 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+22:56:10.099 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+22:56:10.104 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+22:56:10.112 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+22:56:16.218 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+22:56:16.228 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 19004 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+22:56:16.229 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+22:56:17.908 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+22:56:17.960 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+22:56:17.962 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+22:56:17.962 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+22:56:17.962 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+22:56:17.963 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+22:56:17.963 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+22:56:17.963 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+22:56:18.017 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+22:56:18.228 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+22:56:18.230 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+22:56:18.433 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:56:18.434 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:56:18.434 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+22:56:18.632 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:56:19.203 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+22:56:20.862 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+22:56:20.982 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+22:56:21.019 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+22:56:21.142 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22:56:21.230 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+22:56:22.014 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22:56:25.547 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:56:25.560 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:56:25.575 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 9.768 seconds (JVM running for 11.141)
+22:56:25.577 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,32] - Config implements ApplicationRunner
+22:56:25.578 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,33] - start init data from SQL
+22:56:25.578 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,36] - 处理订阅
+22:56:25.832 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,41] - add 3962186225101174
+22:56:25.854 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,41] - add 8413650329648517
+22:56:25.876 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,41] - add 9493531652536136
+22:56:25.898 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,41] - add 2083450322973444
+22:56:25.920 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,41] - add 2019238903303593
+22:56:25.920 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,45] - 处理中.....
+22:56:25.996 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$20865813 - [run,50] - complete
+22:57:53.553 [http-nio-8080-exec-1] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+22:57:53.795 [http-nio-8080-exec-4] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+22:58:51.849 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+22:58:56.905 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+22:58:56.909 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+22:58:56.914 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+22:59:02.464 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+22:59:02.472 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 11116 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+22:59:02.474 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+22:59:04.013 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+22:59:04.061 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+22:59:04.062 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+22:59:04.063 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+22:59:04.063 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+22:59:04.063 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+22:59:04.063 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+22:59:04.064 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+22:59:04.112 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+22:59:04.319 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+22:59:04.321 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+22:59:04.535 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:59:04.535 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:59:04.535 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+22:59:04.711 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:59:05.285 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+22:59:06.902 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+22:59:07.008 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+22:59:07.046 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+22:59:07.150 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22:59:07.224 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+22:59:07.977 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22:59:10.288 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:59:10.298 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:59:10.307 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 8.225 seconds (JVM running for 9.659)
+22:59:10.309 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,32] - Config implements ApplicationRunner
+22:59:10.309 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,33] - start init data from SQL
+22:59:10.309 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,36] - 处理订阅
+22:59:10.529 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,41] - add 3962186225101174
+22:59:10.547 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,41] - add 8413650329648517
+22:59:10.564 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,41] - add 9493531652536136
+22:59:10.581 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,41] - add 2083450322973444
+22:59:10.599 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,41] - add 2019238903303593
+22:59:10.599 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,45] - 处理中.....
+22:59:10.658 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$10842841 - [run,50] - complete
+22:59:45.161 [http-nio-8080-exec-1] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+22:59:45.365 [http-nio-8080-exec-4] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:00:27.905 [http-nio-8080-exec-7] INFO  c.h.d.a.s.EventResource - [deleteById,62] - 用户( root )  正在删除warn事件完成 
+23:00:28.114 [http-nio-8080-exec-7] INFO  c.h.d.a.s.EventResource - [deleteById,64] - 用户( root )  已经删除warn事件完成 
+23:02:47.376 [http-nio-8080-exec-6] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:02:47.762 [http-nio-8080-exec-9] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:02:47.932 [http-nio-8080-exec-10] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:02:50.527 [http-nio-8080-exec-4] INFO  c.h.d.a.s.EventResource - [deleteById,62] - 用户( root )  正在删除warn事件完成 
+23:02:50.707 [http-nio-8080-exec-4] INFO  c.h.d.a.s.EventResource - [deleteById,64] - 用户( root )  已经删除warn事件完成 
+23:02:53.837 [http-nio-8080-exec-6] INFO  c.h.d.a.s.EventResource - [deleteById,62] - 用户( root )  正在删除warn事件完成 
+23:03:17.510 [http-nio-8080-exec-9] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:03:18.855 [http-nio-8080-exec-8] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:03:40.922 [http-nio-8080-exec-5] INFO  c.h.d.m.d.s.DeviceService - [add,81] - find failed, the group nerve exist
+23:03:41.014 [http-nio-8080-exec-5] INFO  c.h.d.m.d.s.DeviceService - [add,104] - 存订阅
+23:03:41.056 [http-nio-8080-exec-5] INFO  c.h.d.m.d.s.DeviceService - [add,110] - 新增设备完成
+23:03:41.183 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:03:48.315 [http-nio-8080-exec-8] INFO  c.h.d.m.s.s.EmqxService - [offline,41] - 已对 8834133267564151 执行下线
+23:04:02.897 [http-nio-8080-exec-10] INFO  c.h.d.m.d.s.DeviceService - [add,81] - find failed, the group nerve exist
+23:04:02.973 [http-nio-8080-exec-10] INFO  c.h.d.m.d.s.DeviceService - [add,104] - 存订阅
+23:04:03.009 [http-nio-8080-exec-10] INFO  c.h.d.m.d.s.DeviceService - [add,110] - 新增设备完成
+23:04:03.130 [http-nio-8080-exec-3] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:04:08.623 [http-nio-8080-exec-5] INFO  c.h.d.m.s.s.EmqxService - [offline,41] - 已对 2470153870253498 执行下线
+23:14:56.049 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:15:01.088 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+23:15:01.092 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+23:15:01.100 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+23:15:09.556 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+23:15:09.562 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 5608 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+23:15:09.563 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+23:15:11.081 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+23:15:11.122 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+23:15:11.123 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+23:15:11.124 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+23:15:11.124 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+23:15:11.124 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+23:15:11.124 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+23:15:11.124 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+23:15:11.170 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+23:15:11.344 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+23:15:11.347 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+23:15:11.530 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+23:15:11.530 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:15:11.531 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:15:11.685 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:15:12.174 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+23:15:13.783 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+23:15:13.897 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:15:13.933 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+23:15:14.032 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23:15:14.108 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+23:15:14.909 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:15:17.358 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+23:15:17.369 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:15:17.379 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 8.213 seconds (JVM running for 9.87)
+23:15:17.381 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,32] - Config implements ApplicationRunner
+23:15:17.381 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,33] - start init data from SQL
+23:15:17.381 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,36] - 处理订阅
+23:15:17.635 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,41] - add 3962186225101174
+23:15:17.652 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,41] - add 8413650329648517
+23:15:17.669 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,41] - add 9493531652536136
+23:15:17.685 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,41] - add 2083450322973444
+23:15:17.702 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,41] - add 2019238903303593
+23:15:17.703 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,45] - 处理中.....
+23:15:17.775 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$f87ddaaf - [run,50] - complete
+23:17:30.300 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+23:17:30.305 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+23:17:30.310 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+23:17:35.583 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 17116 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+23:17:35.583 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+23:17:35.586 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+23:17:37.241 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+23:17:37.284 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+23:17:37.285 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+23:17:37.285 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+23:17:37.286 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+23:17:37.286 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+23:17:37.286 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+23:17:37.286 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+23:17:37.329 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+23:17:37.488 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+23:17:37.490 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+23:17:37.660 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+23:17:37.661 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:17:37.661 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:17:37.802 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:17:38.255 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+23:17:39.838 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+23:17:39.943 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:17:39.975 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+23:17:40.076 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23:17:40.152 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+23:17:40.891 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:17:43.303 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+23:17:43.311 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:17:43.320 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 8.062 seconds (JVM running for 9.35)
+23:17:43.322 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,32] - Config implements ApplicationRunner
+23:17:43.322 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,33] - start init data from SQL
+23:17:43.322 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,36] - 处理订阅
+23:17:43.532 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 3962186225101174
+23:17:43.550 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 8413650329648517
+23:17:43.568 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 9493531652536136
+23:17:43.586 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 2083450322973444
+23:17:43.605 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,41] - add 2019238903303593
+23:17:43.605 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,45] - 处理中.....
+23:17:43.663 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$619a857e - [run,50] - complete
+23:17:55.898 [http-nio-8080-exec-1] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:17:56.186 [http-nio-8080-exec-10] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:19:05.933 [http-nio-8080-exec-5] INFO  c.h.d.a.s.LogResource - [deleteFile,51] - 用户( root )  正在删除日志 sys-info.2023-05-08.txt
+23:19:05.938 [http-nio-8080-exec-5] INFO  c.h.d.a.s.LogResource - [deleteFile,53] - 用户( root )  已经删除日志 sys-info.2023-05-08.txt
+23:19:09.082 [http-nio-8080-exec-6] INFO  c.h.d.a.s.LogResource - [deleteFile,51] - 用户( root )  正在删除日志 sys-info.2023-05-04.txt
+23:19:09.083 [http-nio-8080-exec-6] INFO  c.h.d.a.s.LogResource - [deleteFile,53] - 用户( root )  已经删除日志 sys-info.2023-05-04.txt
+23:19:12.855 [http-nio-8080-exec-8] INFO  c.h.d.a.s.LogResource - [download,60] - 用户( root )  开始下载日志 sys-info.2023-05-12.txt
+23:19:12.859 [http-nio-8080-exec-8] INFO  c.h.d.a.s.LogResource - [download,83] - 用户( root )  已经下载日志 sys-info.2023-05-12.txt
+23:19:33.111 [http-nio-8080-exec-4] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:19:33.195 [http-nio-8080-exec-5] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:20:23.334 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:20:23.335 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:20:28.381 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+23:20:28.387 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+23:20:28.391 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed
+23:20:33.827 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+23:20:33.832 [main] INFO  c.h.d.DemoApplication - [logStarting,55] - Starting DemoApplication using Java 9.0.4 on DESKTOP-GP2GGL4 with PID 8948 (C:\Users\cheer\Documents\graduation\project\demo\target\classes started by cheer in C:\Users\cheer\Documents\graduation\project\demo)
+23:20:33.833 [main] INFO  c.h.d.DemoApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+23:20:35.287 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - [postProcessBeanFactory,50] - Post-processing PropertySource instances
+23:20:35.335 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+23:20:35.336 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+23:20:35.336 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+23:20:35.337 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+23:20:35.337 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+23:20:35.337 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+23:20:35.338 [main] INFO  c.u.j.EncryptablePropertySourceConverter - [makeEncryptable,38] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+23:20:35.386 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - [lambda$null$2,31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+23:20:35.579 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - [lambda$null$2,31] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+23:20:35.581 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - [lambda$null$2,30] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+23:20:35.727 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+23:20:35.727 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:20:35.728 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:20:35.875 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:20:36.357 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+23:20:38.000 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+23:20:38.117 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:20:38.149 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.14.Final
+23:20:38.242 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23:20:38.316 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+23:20:39.062 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:20:41.516 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+23:20:41.526 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:20:41.538 [main] INFO  c.h.d.DemoApplication - [logStarted,61] - Started DemoApplication in 8.032 seconds (JVM running for 9.252)
+23:20:41.540 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,32] - Config implements ApplicationRunner
+23:20:41.540 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,33] - start init data from SQL
+23:20:41.541 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,36] - 处理订阅
+23:20:41.614 [http-nio-8080-exec-2] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:20:41.773 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,41] - add 3962186225101174
+23:20:41.791 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,41] - add 8413650329648517
+23:20:41.808 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,41] - add 9493531652536136
+23:20:41.825 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,41] - add 2083450322973444
+23:20:41.842 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,41] - add 2019238903303593
+23:20:41.843 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,45] - 处理中.....
+23:20:41.904 [main] INFO  c.h.d.c.DataInitConfig$$EnhancerBySpringCGLIB$$45f0bae6 - [run,50] - complete
+23:22:10.741 [http-nio-8080-exec-1] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:22:11.226 [http-nio-8080-exec-3] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:22:11.607 [http-nio-8080-exec-7] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:25:56.048 [http-nio-8080-exec-4] INFO  c.h.d.a.s.EventResource - [deleteById,61] - 用户( root )  正在删除warn事件完成 
+23:25:56.255 [http-nio-8080-exec-4] INFO  c.h.d.a.s.EventResource - [deleteById,63] - 用户( root )  已经删除warn事件完成 
+23:25:58.611 [http-nio-8080-exec-6] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:25:59.033 [http-nio-8080-exec-7] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:25:59.178 [http-nio-8080-exec-10] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:26:02.893 [http-nio-8080-exec-4] INFO  c.h.d.a.s.EventResource - [deleteById,61] - 用户( root )  正在删除warn事件完成 
+23:26:03.087 [http-nio-8080-exec-4] INFO  c.h.d.a.s.EventResource - [deleteById,63] - 用户( root )  已经删除warn事件完成 
+23:26:08.270 [http-nio-8080-exec-7] INFO  c.h.d.a.s.EventResource - [operateById,52] - 用户( root )  正在确认处理事件完成 
+23:26:08.471 [http-nio-8080-exec-7] INFO  c.h.d.a.s.EventResource - [operateById,54] - 用户( root )  已经确认处理事件完成 
+23:31:11.222 [http-nio-8080-exec-5] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:31:11.698 [http-nio-8080-exec-4] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:31:24.071 [http-nio-8080-exec-5] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:31:24.152 [http-nio-8080-exec-7] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:31:31.885 [http-nio-8080-exec-8] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:31:41.047 [http-nio-8080-exec-5] INFO  c.h.d.a.s.EventResource - [deleteById,61] - 用户( root )  正在删除warn事件完成 
+23:31:41.221 [http-nio-8080-exec-5] INFO  c.h.d.a.s.EventResource - [deleteById,63] - 用户( root )  已经删除warn事件完成 
+23:31:42.816 [http-nio-8080-exec-6] INFO  c.h.d.a.s.EventResource - [deleteById,61] - 用户( root )  正在删除warn事件完成 
+23:31:42.989 [http-nio-8080-exec-6] INFO  c.h.d.a.s.EventResource - [deleteById,63] - 用户( root )  已经删除warn事件完成 
+23:31:59.585 [http-nio-8080-exec-10] INFO  c.h.d.a.s.EventResource - [deleteById,61] - 用户( root )  正在删除warn事件完成 
+23:31:59.768 [http-nio-8080-exec-10] INFO  c.h.d.a.s.EventResource - [deleteById,63] - 用户( root )  已经删除warn事件完成 
+23:32:00.261 [http-nio-8080-exec-3] INFO  c.h.d.a.s.EventResource - [deleteById,61] - 用户( root )  正在删除warn事件完成 
+23:32:00.432 [http-nio-8080-exec-3] INFO  c.h.d.a.s.EventResource - [deleteById,63] - 用户( root )  已经删除warn事件完成 
+23:32:00.881 [http-nio-8080-exec-9] INFO  c.h.d.a.s.EventResource - [deleteById,61] - 用户( root )  正在删除warn事件完成 
+23:32:01.060 [http-nio-8080-exec-9] INFO  c.h.d.a.s.EventResource - [deleteById,63] - 用户( root )  已经删除warn事件完成 
+23:32:12.494 [http-nio-8080-exec-5] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:32:12.494 [http-nio-8080-exec-2] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:32:12.909 [http-nio-8080-exec-4] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:32:13.048 [http-nio-8080-exec-10] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:32:24.321 [http-nio-8080-exec-2] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:32:24.415 [http-nio-8080-exec-10] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:32:52.556 [http-nio-8080-exec-9] INFO  c.h.d.a.s.EventResource - [deleteById,61] - 用户( root )  正在删除warn事件完成 
+23:32:52.729 [http-nio-8080-exec-9] INFO  c.h.d.a.s.EventResource - [deleteById,63] - 用户( root )  已经删除warn事件完成 
+23:32:57.087 [http-nio-8080-exec-4] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:32:57.164 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:33:40.354 [http-nio-8080-exec-2] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:33:40.354 [http-nio-8080-exec-5] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:33:40.354 [http-nio-8080-exec-9] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:33:40.778 [http-nio-8080-exec-4] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:33:40.926 [http-nio-8080-exec-1] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:37:13.965 [http-nio-8080-exec-6] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:37:20.134 [http-nio-8080-exec-7] INFO  c.h.d.w.WebSocketProcess - [onOpen,48] - Open a websocket. id=1
+23:37:20.219 [http-nio-8080-exec-2] INFO  c.h.d.m.s.s.EmqxService - [status,60] - mqttId2_input
+23:52:53.546 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:52:53.547 [SpringApplicationShutdownHook] INFO  c.h.d.w.WebSocketProcess - [onClose,58] - close a websocket, concurrentHashMap remove sessionId= 1
+23:52:58.590 [SpringApplicationShutdownHook] INFO  c.h.d.h.HeartBeatHandler - [info,49] - 心跳定时任务已关闭
+23:52:58.594 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2105] - {dataSource-1} closing ...
+23:52:58.598 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2178] - {dataSource-1} closed

@@ -1,0 +1,19 @@
+09:51:08.333 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,79] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":33}
+09:51:08.997 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,58] - --- Event{id=null, eventName='warn', deviceName='2083450322973444', message='异常温度, 33℃', userName='null'}
+09:51:18.353 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,79] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":43}
+09:51:18.496 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,58] - --- Event{id=null, eventName='warn', deviceName='2083450322973444', message='异常温度, 43℃', userName='null'}
+09:51:28.337 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,79] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":12}
+09:51:38.337 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,79] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":29}
+09:51:48.346 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,79] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":0}
+09:51:48.497 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,58] - --- Event{id=null, eventName='warn', deviceName='2083450322973444', message='异常温度, 0℃', userName='null'}
+09:51:58.367 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,79] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":8}
+09:51:58.538 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,58] - --- Event{id=null, eventName='warn', deviceName='2083450322973444', message='异常温度, 8℃', userName='null'}
+09:52:08.348 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,79] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":2}
+09:52:08.557 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,58] - --- Event{id=null, eventName='warn', deviceName='2083450322973444', message='异常温度, 2℃', userName='null'}
+09:52:18.347 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,79] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":6}
+09:52:18.497 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,58] - --- Event{id=null, eventName='warn', deviceName='2083450322973444', message='异常温度, 6℃', userName='null'}
+09:57:38.410 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,72] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":34}
+09:57:48.397 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,72] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":13}
+09:57:58.397 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,72] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":1}
+09:58:08.376 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,72] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":10}
+09:58:18.376 [MQTT Call: mqttId2_input] INFO  sys-date - [handleMessage,72] - 2083450322973444{"id":2083450322973444,"attribute":"temperature","value":36}

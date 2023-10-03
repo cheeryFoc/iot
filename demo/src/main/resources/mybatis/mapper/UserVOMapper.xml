@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace=绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.hxk.demo.module.user.mapper.UserVOMapper">
+
+<!--    <resultMap id="userMap" type="com.hxk.demo.module.user.entity.vo.UserVO">-->
+<!--        <id column="id" property="id"/>-->
+<!--        <result column="user_name" property="userName"/>-->
+<!--        <result column="nick_name" property="nickName"/>-->
+<!--        <collection property="roles" javaType="ArrayList" select="getRoles"/>-->
+<!--        <result column="email" property="email"/>-->
+<!--        <result column="phone" property="phone"/>-->
+<!--        <result column="create_date" property="createDate"/>-->
+<!--    </resultMap>-->
+
+    <!--single-->
+<!--    <select id="getUserByName" resultMap="userMap">-->
+<!--        select user.id, user.user_name, user.nick_name, user.email, user.phone, user.create_date  from user where user.user_name like #{userName}-->
+<!--    </select>-->
+<!--    <select id="getUserByName" resultMap="userMap">-->
+<!--        select user.id, user.user_name, user_role.role, user.email, user.phone, user.create_date, user.nick_name  from user left join user_role on user.user_name = user_role.user_name where user.user_name like #{userName}-->
+<!--    </select>-->
+<!--    <select id="getRoles" resultType="com.hxk.demo.module.user.entity.UserRole">-->
+<!--        select user_role.role from user_role where user_name = #{userName}-->
+<!--    </select>-->
+    <!--list-->
+
+</mapper>
