@@ -1,11 +1,4 @@
-/***********************************************************
- * author: kerwincui [物美智能 wumei-smart]
- * create: 2022-02-20
- * email：164770707@qq.com
- * source:https://github.com/kerwincui/wumei-smart
- * board:esp8266 core for arduino v3.0.2
- ***********************************************************/
- 
+
 #ifndef _HELPER_H
 #define _HELPER_H
 
